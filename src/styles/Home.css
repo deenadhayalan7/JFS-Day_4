@@ -1,0 +1,105 @@
+
+body{
+  background: #03073c;
+  margin: 0;
+}
+  .headerContainer {
+    width: auto;
+    margin-left: 50px;
+  }
+  
+  .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    height: 60px;
+    font-weight: 50;
+    color: black;
+  }
+  
+  .headerContainer p {
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+  }
+  
+  .btn-evn{
+    align-items:center;
+    padding: 30px;
+  }
+  
+  .headerContainer button:hover {
+    background-color: #c84893;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+    }
+    /* .headerContainer h1,
+    .headerContainer p {
+    } */
+  
+    .headerContainer {
+      margin-left: 0px;
+      border-radius: 10px;
+      padding: 10px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #121619;
+      color: white;
+    }
+  
+    .headerContainer h1 {
+      font-size: 40px;
+      height: 30px;
+      color: white;
+    }
+  
+    .headerContainer p {
+      font-size: 30px;
+      color: white;
+    }
+  
+    .headerContainer button {
+      background-color: white;
+      color: #121619;
+      margin-bottom: 30px;
+    }
+  
+    .headerContainer button:hover {
+      background-color: rgb(225, 225, 225);
+      color: #121619;
+    }
+  }
+  .abt{
+    padding: 5rem;
+      border: 1px solid #08042d;;
+      border-radius: 10px;
+      margin: 0.5rem;
+      background-color: #08042d;
+      box-shadow: 4px 3px 40px rgb(20, 90, 160);
+      padding-top: 100px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px;
+}
+  
+  .grid-item {
+    background-color: #f2f2f2;
+    padding: 150px;
+    border-radius: 2px; /* Add the desired border radius value */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
